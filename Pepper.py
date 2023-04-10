@@ -51,7 +51,7 @@ except Exception, e:
 image_path =  'D:\\face\\'
 local_path = '/home/nao/recordings/cameras/'
 t = paramiko.Transport(IP, PORT)
-t.connect(username="nao", password="edutech123")
+t.connect(username="####", password="####")
 sftp = paramiko.SFTPClient.from_transport(t)
 files = sftp.listdir(local_path)
 for f in files:
